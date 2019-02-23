@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.UnitTest", "Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibility\Extensibility.csproj", "{B2581DA9-0CF6-4080-BC0B-E8212A8D1DCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{A5E490BD-D26E-46DF-BCA8-3B876759356F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B2581DA9-0CF6-4080-BC0B-E8212A8D1DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2581DA9-0CF6-4080-BC0B-E8212A8D1DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2581DA9-0CF6-4080-BC0B-E8212A8D1DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
