@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{A5E490BD-D26E-46DF-BCA8-3B876759356F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{F6477FF3-5B48-40B1-AE17-2222DCA12E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{AF8C8810-827D-4A6B-A16E-E63EBC06E85B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5E490BD-D26E-46DF-BCA8-3B876759356F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6477FF3-5B48-40B1-AE17-2222DCA12E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6477FF3-5B48-40B1-AE17-2222DCA12E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6477FF3-5B48-40B1-AE17-2222DCA12E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6477FF3-5B48-40B1-AE17-2222DCA12E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8C8810-827D-4A6B-A16E-E63EBC06E85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8C8810-827D-4A6B-A16E-E63EBC06E85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8C8810-827D-4A6B-A16E-E63EBC06E85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8C8810-827D-4A6B-A16E-E63EBC06E85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
