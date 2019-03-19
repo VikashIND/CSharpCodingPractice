@@ -19,11 +19,18 @@ namespace Async
             InitializeComponent();
         }
 
-        private void btnDownload_Click(object sender, EventArgs e)
+        private async void BtnDownload_Click(object sender, EventArgs e)
         {
-            DownloadHtml(@"http://localhost:24499/PdfRender.aspx");
+          await  DownloadHtmlAsync(@"http://localhost:24499/PdfRender.aspx");
         }
 
+        private async Task DownloadHtmlAsync(string url)
+        {
+            var webClient = new WebClient();
+            var bytes =await webClient.DownloadDataTaskAsync(url);
+            File.WriteAllBytes(@"c:\log\AsyncPdfTest.pdf", bytes);
+
+        }
         private void DownloadHtml(string url)
         {
             var webClient = new WebClient();
