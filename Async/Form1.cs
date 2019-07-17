@@ -17,6 +17,7 @@ namespace Async
         public Form1()
         {
             InitializeComponent();
+            TestMethod();
         }
 
         private async void BtnDownload_Click(object sender, EventArgs e)
@@ -43,6 +44,11 @@ namespace Async
             //{
             //    streamWriter.Write(html);
             //}
+        }
+
+        private void TestMethod()
+        {
+            MessageBox.Show("Hello from winforms");
         }
     }
 }
