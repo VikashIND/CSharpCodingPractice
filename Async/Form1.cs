@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Async.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -17,6 +19,7 @@ namespace Async
         public Form1()
         {
             InitializeComponent();
+            EmployeeTest();
             TestMethod();
         }
 
@@ -49,6 +52,17 @@ namespace Async
         private void TestMethod()
         {
             MessageBox.Show("Hello from winforms");
+        }
+
+        public void EmployeeTest()
+        {
+            Employee emp = new Employee();
+            emp.Id = 1;
+            emp.Name = "Rakesh";
+            emp.Address = "Gurugram";
+
+           Console.Write($"Employee Id:{0}, Name:{1}, Address:{2}", emp.Id, emp.Name, emp.Address);
+
         }
     }
 }
