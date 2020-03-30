@@ -13,10 +13,10 @@ namespace MyConsoleApp
 
             OperatorOverloading obj1 = new OperatorOverloading();
             obj1.Num1 = 10;
-          obj1.Str1 = "Vikash ";
+          obj1.Str1 = "Rikesh ";
             OperatorOverloading obj2 = new OperatorOverloading();
             obj2.Num1 = 10;
-            obj2.Str1 = "Kumar";
+            obj2.Str1 = "Jha";
 
             obj = obj1 + obj2;
             Console.WriteLine($"Numer:{obj.Num1}, String:{obj.Str1}");
